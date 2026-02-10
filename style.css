@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #2c1810 0%, #1a0f0a 100%);
+    color: #f0e6d2;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid #d4a574;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 700px;
+    width: 90%;
+    box-shadow: 0 0 30px rgba(212, 165, 116, 0.5);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 3em;
+    color: #f4d03f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 2em;
+    color: #d4a574;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.1em;
+    color: #c0a080;
+    font-style: italic;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #f4d03f, #d4a574);
+    color: #1a0f0a;
+    box-shadow: 0 5px 15px rgba(244, 208, 63, 0.4);
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(244, 208, 63, 0.6);
+}
+
+.btn-secondary {
+    background: #4a3728;
+    color: #f4d03f;
+    border: 2px solid #d4a574;
+}
+
+.btn-secondary:hover {
+    background: #6b5139;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(212, 165, 116, 0.3);
+}
+
+.teaser-section {
+    background: rgba(212, 165, 116, 0.1);
+    border-left: 4px solid #f4d03f;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.teaser-section h3 {
+    color: #f4d03f;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #d4a574;
+    font-size: 0.9em;
+    color: #a0906f;
+}
